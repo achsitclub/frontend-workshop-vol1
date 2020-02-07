@@ -1,0 +1,3 @@
+- Live Server
+- Auto Rename Tag 
+- Material Icon Theme (optional)

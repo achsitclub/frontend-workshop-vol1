@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        body{
+            width:100vw;
+            margin:0;
+            padding:0;
+            height:3000px;
+            overflow-x: hidden;
+        }
+        .background{
+            width:100%;
+            height:300px;
+        }
+        #color{
+            background-color: red;
+        }
+        #image{
+            background-image: url('icon-website.jpg');
+            width:100%;
+            background-size: cover;
+
+            background-position: center;
+
+            background-attachment: fixed;
+        }
+        #linearGradient{
+            background-image: linear-gradient(to bottom, red, yellow);
+        }
+        #linearGradientImage{
+            background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.404), rgba(255, 255, 0, 0.5)), url('icon-website.jpg');
+            background-size: cover;
+            background-position:center;
+        }
+
+    </style>
+<body>
+    <p>This is Red Background Color</p>
+    <div id="color" class="background">
+
+    </div>
+    <br>
+    <p>This is Image Background</p>
+    <div id="image" class="background">
+
+    </div>
+    <br>
+    <p>This is Linear Gradient</p>
+    <div id="linearGradient" class="background" >
+
+    </div>
+    <p>This is Linear Gradient on Image</p>
+    <div id="linearGradientImage" class="background">
+
+    </div>
+
+</body>
+</html>
